@@ -1,0 +1,26 @@
+.home-hero__socials {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #79B473;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0px 0.5rem 0.5rem 0px;
+    padding: .5rem;
+}
+.home-hero__social {
+    width: 5rem;
+}
+.home-hero__social-icon-link {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    transition: background .3s;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.home-hero__social-icon {
+    width: 100%;
+}
