@@ -2,7 +2,7 @@ import "./Style.css"
 
 export function Header() {
     return (
-        <header className="header">
+        <header id="header" className="header">
             <div className="header_content">
                 <div className="header_logo_container">
                     <div className="header_logo_img">
@@ -14,17 +14,21 @@ export function Header() {
 
                     <ul className="header_links">
                         <li>
-                            <a className="header_link" href="/">Home</a>
+                            <a className="header_link" href="#hero">Home</a>
                         </li>
                         <li>
                             <a className="header_link" href="#about">Sobre</a>
                         </li>
                         <li>
+                            <a className="header_link" href="#experience">Experiência</a>
+                        </li>
+                        <li>
                             <a className="header_link" href="#projects">projetos</a>
                         </li>
                         <li>
-                            <a className="header_link" href="#contact">Contato</a>
+                            <a className="header_link" href="#footer">Contato</a>
                         </li>
+                        
 
                     </ul>
                 </div>

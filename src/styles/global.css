@@ -9,5 +9,8 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: "helvetica", sans-serif;
+}
 
+html {
+    scroll-behavior: smooth;
 }

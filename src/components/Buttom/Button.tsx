@@ -1,4 +1,4 @@
-import "./style.css"
+import "./Style.css"
 
 type ButtonProps = {
     text: string;
@@ -10,7 +10,7 @@ export function Button({ text, onClick }: ButtonProps) {
         <button
             type="button"
             onClick={onClick}
-            className="btn"
+            className="btn btn--bg"
         >
             {text}
         </button>

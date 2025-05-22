@@ -1,0 +1,38 @@
+/* #1F1F1F */
+.experience{
+    background-color: #1F1F1F ;
+}
+.experience__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.experience__item {
+    background-color: #353535;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #0000004d;
+}
+
+.experience__role {
+    font-size: 2rem;
+    color: #fcfcfc;
+    margin-bottom: 0.5rem;
+}
+
+.experience__company {
+    color: #919191;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.experience__period {
+    color: #a0a0a0;
+}
+
+.experience__description {
+    font-size: 1.6rem;
+    color: #d4d4d4;
+    line-height: 1.6;
+}
