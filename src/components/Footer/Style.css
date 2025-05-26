@@ -43,3 +43,32 @@ a {
     font-size: 1.5rem;
     line-height: 1.7;
 }
+
+@media (max-width: 768px) {
+    .main-footer__upper {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 4rem 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-footer__row-1,
+    .main-footer__row-2 {
+        order: unset;
+        width: 100%;
+    }
+
+    .heading-sm {
+        font-size: 1.8rem;
+    }
+
+    .main-footer__short-desc {
+        font-size: 1.4rem;
+    }
+
+    .main-footer__icon {
+        width: 2rem;
+        margin-right: 0.8rem;
+    }
+}

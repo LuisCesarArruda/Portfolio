@@ -1,6 +1,5 @@
-/* #1F1F1F */
-.experience{
-    background-color: #1F1F1F ;
+.experience {
+    background-color: #1f1f1f;
 }
 .experience__content {
     display: flex;
@@ -35,4 +34,37 @@
     font-size: 1.6rem;
     color: #d4d4d4;
     line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .experience__role {
+        font-size: 1.8rem;
+    }
+
+    .experience__company,
+    .experience__period {
+        font-size: 1.2rem;
+    }
+
+    .experience__description {
+        font-size: 1.4rem;
+    }
+
+    .experience__item {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience__role {
+        font-size: 1.6rem;
+    }
+
+    .experience__description {
+        font-size: 1.3rem;
+    }
+
+    .experience__content {
+        gap: 2rem;
+    }
 }

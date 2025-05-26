@@ -45,3 +45,40 @@
     margin-top: 5rem;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .heading-primary {
+        font-size: 2.5rem;
+    }
+
+    .text-primary {
+        font-size: 1.8rem;
+    }
+
+    .home-hero__cta {
+        margin-top: 3rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .heading-primary {
+        font-size: 2rem;
+    }
+
+    .text-primary {
+        font-size: 1.6rem;
+    }
+
+    .home-hero {
+        height: auto;
+        padding: 6rem 0;
+        min-height: auto;
+    }
+
+    .home-hero_content {
+        position: static;
+        transform: none;
+        top: auto;
+        left: auto;
+    }
+}

@@ -3,14 +3,13 @@
     grid-template-columns: 1.5fr 1fr;
     grid-gap: 5rem;
     margin-bottom: 11rem;
-    
 }
 .projects__row-img-cont {
     overflow: hidden;
     width: 100%;
     max-width: 20rem;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .projects__row-img {
@@ -26,4 +25,22 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+}
+@media (max-width: 768px) {
+    .projects__row {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .projects__row-img-cont {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .projects__row-content {
+        padding: 1rem 0;
+        align-items: center;
+        text-align: center;
+    }
 }
