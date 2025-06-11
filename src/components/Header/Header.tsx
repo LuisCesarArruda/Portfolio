@@ -1,4 +1,5 @@
 import "./Style.css"
+import fotoLs from "../../assets/fotoLS.png"
 
 export function Header() {
     return (
@@ -6,7 +7,7 @@ export function Header() {
             <div className="header_content">
                 <div className="header_logo_container">
                     <div className="header_logo_img">
-                        <img src="#" alt="#" />
+                        <img src={fotoLs} alt="foto de luis cesar" />
                     </div>
                     <span className="header__logo-sub">Luis César</span>
                 </div>

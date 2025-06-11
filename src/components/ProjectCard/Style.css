@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     margin-bottom: 5rem;
+    align-items: center;
 }
 .projects__row-img-cont {
     overflow: hidden;
@@ -18,6 +19,10 @@
 .projects__row-content-desc{
 
     margin-bottom: 1rem;
+}
+.projects__row-img-cont,
+.projects__row-content {
+    min-height: 300px; 
 }
 
 .projects__row-img {
